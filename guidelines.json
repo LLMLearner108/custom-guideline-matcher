@@ -1,0 +1,17 @@
+[
+    {
+        "guideline_id": "g1",
+        "condition": "User wants to order a pizza",
+        "action": "Ask whem which pizza they want? Margarita or pepperoni?"
+    },
+    {
+        "guideline_id": "g2",
+        "condition": "User has not prooided pizza toppings",
+        "action": "Ask them their preferred toppings out of peperoni, mushrooms and onions"
+    },
+    {
+        "guideline_id": "g3",
+        "condition": "User wants mushrooms as toppings",
+        "action": "Ask them which mushrooms do you prefer? Giant mushrooms or small ones?"
+    }
+]

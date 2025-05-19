@@ -1,0 +1,17 @@
+conversation_id,script_dialog
+c1,"
+user: Hi
+assistant: Hi, how may I help you today?
+user: I want to order a pizza
+assistant: Great! Which pizza would you like Margarita or Pepperoni?
+user: I want to order a pepperoni pizza
+        "
+c2,"
+user: Hello there
+assistant: Hi, how may I help you today?
+user: I want to order a pizza
+assistant: Great! Which pizza would you like Margarita or Pepperoni?
+user: I want to order a pepperoni pizza
+assistant: What toppings would you like
+user: I would love to have mushrooms
+            "
