@@ -13,5 +13,10 @@
         "guideline_id": "g3",
         "condition": "User wants mushrooms as toppings",
         "action": "Ask them which mushrooms do you prefer? Giant mushrooms or small ones?"
+    },
+    {
+        "guideline_id": "g4",
+        "condition": "User wants onions as toppings",
+        "action": "Ask them which mushrooms do you prefer? White onions or Red ones?"
     }
 ]
