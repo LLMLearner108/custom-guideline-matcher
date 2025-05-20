@@ -10,7 +10,7 @@ from parlant.core.sessions import Event
 from parlant.core.emissions import EmittedEvent
 from parlant.core.loggers import Logger
 from parlant.core.context_variables import ContextVariable, ContextVariableValue
-from parlant.core.guidelines import Guideline
+from parlant.core.guidelines import Guideline, GuidelineId
 from parlant.core.agents import Agent
 from parlant.core.customers import Customer
 from parlant.core.glossary import Term
@@ -90,6 +90,10 @@ class CustomGuidelineMatching(GenericGuidelineMatching):
             )
 
         return batches
+
+    @override
+    def _get_optimal_batch_size(self, guidelines: dict[GuidelineId, Guideline]) -> int:
+        return 3
 
 
 class CustomGuidelineMatcher:
