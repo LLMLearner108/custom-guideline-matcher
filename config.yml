@@ -1,0 +1,10 @@
+logger_path: "logs/custom_guideline_matching.log"
+agent_id: "test-agent"
+customer_id: "test-customer"
+agent_description: "You are a banking agent who is highly skilled in indulging in conversations with customers and providing them answers to their questions related to digital banking services provided by Chase Bank."
+output_path: "completions.pkl"
+conversations_path: "conversations.csv"
+conversation_id_column: "conversation_id"
+conversation_column: "script_dialog"
+guidelines_path: "guidelines.json"
+debug: True
